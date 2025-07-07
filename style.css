@@ -1,0 +1,18 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    display:flex;
+    margin: 0;
+}
+
+div.left {
+    width: 35%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+div.right {
+    width: 65%;
+    height: 100vh;
+    background-color: lightblue;
+}
