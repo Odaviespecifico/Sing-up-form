@@ -7,7 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="left"></div>
-    <div class="right"></div>
+    <div class="left">
+        <div class="title-logo">
+            <div class="imagem">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="texto">
+                Odaviespecifico
+            </div>
+        </div>
+        <div class="bottom">Photo by <a href="https://unsplash.com/@jamiekettle10" target="_blank">Jamie Kettle</a> on <a href="unsplash.com" target="_blank">unsplash</a></div>
+    </div>
+    <div class="right">
+        <div class="bigtext">Esse não é um serviço real. Apenas para demonstrar um formulário simples usando HTML e CSS. Esse é um dos projetos do the odin project. O formulátio não leva suas informações para nenhum site. Porém... não saia colocando informações pessoais em qualquer site por aí =).  </div>
+
+        <div class="form">
+            <h1>Crie sua conta</h1>
+            <form>
+                <div class="formOption">
+                    <label for="first_name">PRIMEIRO NOME</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Seu primeiro nome" required>
+                </div>
+                <div class="formOption">
+                    <label for="second_name">SOBRENOME</label>
+                    <input type="text" name="second_name" id="second_name" placeholder="Seu segundo nome" required>
+                </div>
+                <div class="formOption">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required placeholder="seuemail@provedor.com">
+                </div>
+                <div class="formOption">
+                    <label for="telephone">TELEFONE</label>
+                    <input type="tel" name="telephone" id="telephone" required minlength="11" maxlength="11" placeholder="01234567891">
+                </div>
+                <div class="formOption">
+                    <label for="password">SENHA</label>
+                    <input type="password" id="password" name="password" minlength="8" required>
+                </div>
+                <div class="formOption">
+                    <label for="password">CONFIRME A SENHA</label>
+                    <input type="password" id="password" name="password" minlength="8" required>
+                </div>
+            </form>
+        </div>
+        <button type="submit">Criar conta</button>
+        <br>
+        <span class="already">Já tem uma conta? <a href="" class="login">faça login</a></span>
+    </div>
 </body>
 </html>
